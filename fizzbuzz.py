@@ -1,9 +1,10 @@
-for x in range(1,101):
-    if x %3==0 and x %5==0:
-        print('FizzBuzz')
-    elif x %3==0:
-        print('Fizz')
-    elif x %5==0:
-        print('Buzz')
+for number in range(1,101):
+    if number %3==0 and x %5==0:
+        print('FIZZBUZZ')
+    elif number %3==0:
+        print('FIZZ')
+    elif number %5==0:
+        print('BUZZ')
     else:
-        print(x)
+        print(number)
+
